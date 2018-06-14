@@ -26,6 +26,7 @@ ynew = model.predict_proba(Xnew)
 # show the inputs and predicted outputs
 for i in range(len(Xnew)):
 	print("X=%s, Predicted=%s" % (Xnew[i], ynew[i]))
+print(X, y,"X, y")
 
 """
 Created on Thu Jun 14 14:48:51 2018
